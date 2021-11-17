@@ -1,0 +1,51 @@
+{
+    "name": "axeldotdev/logs",
+    "description": "A Laravel Nova tool.",
+    "keywords": ["nova", "spatie activity logs", "logs"],
+    "version": "1.0.0",
+    "homepage": "https://github.com/axeldotdev/nova-activitylogs",
+    "readme": "https://github.com/axeldotdev/nova-activitylogs/blob/main/README.md",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Axel Charpentier",
+            "email": "axel.charpentier@hey.com",
+            "homepage": "https://github.com/axeldotdev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "spatie/laravel-activitylog": "^4.2"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "pestphp/pest": "^1.20",
+        "spatie/ray": "^1.28",
+        "vimeo/psalm": "^4.8"
+    },
+    "support": {
+        "email": "axel.charpentier@hey.com",
+        "source": "https://github.com/axeldotdev/nova-activitylogs",
+        "issues": "https://github.com/axeldotdev/nova-activitylogs/issues",
+        "docs": "https://github.com/axeldotdev/nova-activitylogs/wiki",
+        "chat": "https://github.com/axeldotdev/nova-activitylogs/discussions"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ayctor\\Logs\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ayctor\\Logs\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
