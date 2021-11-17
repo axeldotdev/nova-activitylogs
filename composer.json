@@ -1,5 +1,5 @@
 {
-    "name": "axeldotdev/logs",
+    "name": "axeldotdev/nova-activitylogs",
     "description": "A Laravel Nova tool.",
     "keywords": ["nova", "spatie activity logs", "logs"],
     "version": "1.0.0",
